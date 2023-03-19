@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.nav1{
+    position: relative;
+    top: 21px;
+}
+.nav1 ul{
+    list-style: none;
+    display: flex;
+    float: left;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.nav1 ul li{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav2 ul li{
+    margin-right: 25px;
+    cursor: pointer;
+}
+.nav2{
+    position: relative;
+    top: 20px;
+    left: 400px;
+}
+.nav2 ul{
+    list-style: none;
+    display: flex;
+    float: right;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.nav2 ul li i{
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.mainlogo{
+    transform: scale(0.50);
+    position: relative;
+    float: left;
+    left: 33px;
+    top: 3.5px;
+}
+.text{
+    position: relative;
+    top: -340px;
+    left: 150px;
+}
+.text p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.text button{
+    margin-top: 20px;
+    width: 130px;
+    height: 38px;
+    background-color: #0067b8;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+.text button:hover{
+    transition: 0.3s;
+    transform: scale(1.01);
+}
+.h5{
+    position: relative;
+    left: 148px;
+    bottom: 30px;
+    font-size: 22px;
+}
+.text2{
+    position: relative;
+    top: -320px;
+    left: 940px;
+}
+.text2 p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.text2 button{
+    margin-top: 18px;
+    width: 130px;
+    height: 38px;
+    background-color: #0067b8;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+.icon-section{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -120px;
+    overflow: hidden;
+    background-position: center;
+}
+.icon1 p{
+   color:#0067b8;
+   margin-left: -60px;
+   margin-top: 10px;
+}
+.icon1{
+    margin-left: 300px;
+}
+.icon2 p{
+    color:#0067b8;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+.icon3 p{
+    color:#0067b8;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+.icon4 p{
+    color:#0067b8;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+ .icon4{
+    margin-right: 300px;
+}
+.content-cards{
+    width: 100%;
+    height: 54vh;
+    display: flex;
+    margin-top: 60px;
+    overflow: hidden;
+    background-position: center;
+}
+.card1{
+    margin-left: 60px;
+}
+.card1 img{
+    width: 324px;
+    height: 182px;
+}
+.card1 h2{
+  margin-top: 24px;
+}
+.card1 p{
+    margin-top: 16px;
+}
+.card1 h6{
+    color: #0067b8;
+    margin-top: 20px;
+}
+.card2{
+    margin-left: 30px;
+}
+.card2 img{
+    width: 324px;
+    height: 182px;
+}
+.card2 h2{
+  margin-top: 24px;
+}
+.card2 p{
+    margin-top: 16px;
+}
+.card2 h6{
+    color: #0067b8;
+    margin-top: 32px;
+}
+.card3{
+    margin-left: 30px;
+}
+.card3 img{
+    width: 324px;
+    height: 182px;
+}
+.card3 h2{
+  margin-top: 24px;
+}
+.card3 p{
+    margin-top: 16px;
+}
+.card3 h6{
+    color: #0067b8;
+    margin-top: 32px;
+}
+.card4{
+    margin-left: 30px;
+}
+.card4 img{
+    width: 324px;
+    height: 182px;
+}
+.card4 h2{
+  margin-top: 24px;
+}
+.card4 p{
+    margin-top: 16px;
+}
+.card4 h6{
+    color: #0067b8;
+    margin-top: 32px;
+}
+.intro-part{
+    margin-top: 120px;
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    overflow: hidden;
+    /* background-color: blue; */
+}
+.intro-part img{
+    width: 92%;
+    height: 99%;
+    margin-left: 60px;  
+}
+.text-part{
+    position: relative;
+    bottom: 340px;
+    left: 160px;
+    color: #fff;
+}
+.text-part h6{
+    margin-top: 14px;
+}
+.text-part button{
+    width: 190px;
+    height: 38px;
+    font-size: 18px;
+    background-color: #0067b8;
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+}
+.text-part p{
+    margin-top: 20px;
+}
+.text-part h6{
+    margin-top: 20px;
+}
+.h2{
+position: absolute;
+left: 60px;
+top: 1760px;
+overflow: hidden;
+}
+.business-part{
+    width: 100%;
+    height: 58vh;
+    display: flex;
+    margin-top: 100px;
+}
+.business-part img{
+    width: 324px;
+    height: 182px;
+}
+.b1{
+    margin-left: 60px;
+}
+.b2{
+margin-left: 30px;
+}
+.b3{
+ margin-left: 30px;
+}
+.b4{
+ margin-left: 30px;
+}
+.b1 h2{
+    margin-top: 24px;
+}
+.b1 p{
+      margin-top: 16px;
+}
+.b1 h6{
+      color: #0067b8;
+      margin-top: 20px;
+}
+.b2 h2{
+    margin-top: 24px;
+}
+.b2 p{
+      margin-top: 16px;
+}
+.b2 h6{
+      color: #0067b8;
+      margin-top: 20px;
+}
+.b3 h2{
+    margin-top: 24px;
+}
+.b3 p{
+      margin-top: 16px;
+}
+.b3 h6{
+      color: #0067b8;
+      margin-top: 20px;
+}
+.b4 h2{
+    margin-top: 24px;
+}
+.b4 p{
+      margin-top: 16px;
+}
+.b4 h6{
+      color: #0067b8;
+      margin-top: 20px;
+}
+.follow{
+   position: absolute;
+   left: 60px;
+   top: 2280px;
+   display: flex;
+   overflow: hidden;
+   background-position: center;
+}
+.icon{
+    font-size: 24px;
+    margin-top: -6px;
+}
+.icon i{
+    margin-left: 36px;
+}
+.footer{
+    margin-top: 110px;
+    width: 100%;
+    height: 40vh;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    overflow: hidden;
+    background-position: center;
+}
+.list1 ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+.list2 ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+.list3 ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+.list4 ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+.list5 ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+.list6 ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+.footer h6{
+    margin-top: 34px;
+}
+.row-list{
+    width: 100%;
+    height: 6vh;
+    background-color:#f2f2f2;
+    ;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+.english{
+    list-style: none;
+    margin-left: 74px;
+}
+.row-list ul{
+    list-style: none;
+    display: flex;
+    float: right;
+}
+.row-list ul li{
+   margin-right: 40px;
+}
